@@ -354,15 +354,15 @@ export default function Home() {
 
             <article className="rounded-2xl border border-[var(--border)] bg-[var(--surface-muted)] p-4">
               <h3 className="text-base font-semibold">Page View</h3>
-              <input value={page} onChange={(event) => setPage(event.target.value)} className="mt-2 w-full rounded-lg border border-[var(--border)] bg-[#0c172b] px-3 py-2 font-mono text-sm outline-none ring-[var(--ring)] focus:ring" placeholder="page path" />
+              <input value={page} onChange={(event) => setPage(event.target.value)} className="mt-2 w-full rounded-lg border border-[var(--border)] bg-[#0c172b] px-4 py-2.5 font-mono text-sm outline-none ring-[var(--ring)] transition focus:ring focus:border-[var(--brand)]" placeholder="page path" />
               <button type="button" onClick={submitPageView} disabled={busy} className="mt-3 rounded-full bg-[var(--brand)] px-5 py-2.5 text-sm font-semibold text-[#04131f] transition hover:bg-[var(--brand-soft)] disabled:opacity-60">Fire `track-page-view`</button>
             </article>
 
             <article className="rounded-2xl border border-[var(--border)] bg-[var(--surface-muted)] p-4">
               <h3 className="text-base font-semibold">Action</h3>
               <div className="mt-2 grid gap-2">
-                <input value={actionName} onChange={(event) => setActionName(event.target.value)} className="rounded-lg border border-[var(--border)] bg-[#0c172b] px-3 py-2 font-mono text-sm outline-none ring-[var(--ring)] focus:ring" placeholder="action" />
-                <input value={target} onChange={(event) => setTarget(event.target.value)} className="rounded-lg border border-[var(--border)] bg-[#0c172b] px-3 py-2 font-mono text-sm outline-none ring-[var(--ring)] focus:ring" placeholder="target" />
+                <input value={actionName} onChange={(event) => setActionName(event.target.value)} className="rounded-lg border border-[var(--border)] bg-[#0c172b] px-4 py-2.5 font-mono text-sm outline-none ring-[var(--ring)] transition focus:ring focus:border-[var(--brand)]" placeholder="action" />
+                <input value={target} onChange={(event) => setTarget(event.target.value)} className="rounded-lg border border-[var(--border)] bg-[#0c172b] px-4 py-2.5 font-mono text-sm outline-none ring-[var(--ring)] transition focus:ring focus:border-[var(--brand)]" placeholder="target" />
               </div>
               <button type="button" onClick={submitAction} disabled={busy} className="mt-3 rounded-full bg-[var(--brand)] px-5 py-2.5 text-sm font-semibold text-[#04131f] transition hover:bg-[var(--brand-soft)] disabled:opacity-60">Fire `track-action`</button>
             </article>
