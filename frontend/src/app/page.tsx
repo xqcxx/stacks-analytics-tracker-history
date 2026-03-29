@@ -260,7 +260,7 @@ export default function Home() {
         </article>
       </section>
 
-      <section className="rise-in rounded-3xl border border-[var(--border)] bg-[var(--surface)] p-5 [animation-delay:130ms]">
+      <section className="rise-in rounded-3xl border border-[var(--border)] bg-[var(--surface)] p-6 [animation-delay:130ms]">
         <div className="grid gap-4 lg:grid-cols-[1fr_1fr_1fr]">
           <div className="rounded-2xl border border-[var(--border)] bg-[var(--surface-muted)] p-4">
             <p className="font-mono text-xs uppercase tracking-wide text-[var(--text-soft)]">Use Cases</p>
