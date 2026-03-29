@@ -222,7 +222,7 @@ export default function Home() {
           Capture page views, user actions, conversions, and custom events as on-chain telemetry.
           Built for teams that need auditable analytics plus high-frequency scripted submissions.
         </p>
-        <div className="mt-5 flex flex-wrap gap-2">
+        <div className="mt-6 flex flex-wrap gap-3">
           <button
             type="button"
             onClick={connectWallet}
