@@ -262,15 +262,15 @@ export default function Home() {
 
       <section className="rise-in rounded-3xl border border-[var(--border)] bg-[var(--surface)] p-6 [animation-delay:130ms]">
         <div className="grid gap-4 lg:grid-cols-[1fr_1fr_1fr]">
-          <div className="rounded-2xl border border-[var(--border)] bg-[var(--surface-muted)] p-4">
+          <div className="rounded-2xl border border-[var(--border)] bg-[var(--surface-muted)] p-5">
             <p className="font-mono text-xs uppercase tracking-wide text-[var(--text-soft)]">Use Cases</p>
             <p className="mt-2 text-sm">Growth tracking, campaign attribution, retention event auditing.</p>
           </div>
-          <div className="rounded-2xl border border-[var(--border)] bg-[var(--surface-muted)] p-4">
+          <div className="rounded-2xl border border-[var(--border)] bg-[var(--surface-muted)] p-5">
             <p className="font-mono text-xs uppercase tracking-wide text-[var(--text-soft)]">Architecture</p>
             <p className="mt-2 text-sm">Stateless emit-only contract + off-chain indexing layer.</p>
           </div>
-          <div className="rounded-2xl border border-[var(--border)] bg-[var(--surface-muted)] p-4">
+          <div className="rounded-2xl border border-[var(--border)] bg-[var(--surface-muted)] p-5">
             <p className="font-mono text-xs uppercase tracking-wide text-[var(--text-soft)]">Network</p>
             <p className="mt-2 text-sm">Current target: {network}. Local log entries: {activity.length}.</p>
           </div>
