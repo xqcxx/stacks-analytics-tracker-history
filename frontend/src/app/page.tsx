@@ -242,21 +242,21 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="how-it-works" className="rise-in grid gap-4 [animation-delay:80ms] md:grid-cols-3">
-        <article className="rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-5">
+      <section id="how-it-works" className="rise-in grid gap-5 [animation-delay:80ms] md:grid-cols-3">
+        <article className="rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-6">
           <p className="font-mono text-xs uppercase tracking-wide text-[var(--text-soft)]">How It Works</p>
-          <h2 className="mt-2 text-xl font-semibold">1) Choose event + payload</h2>
-          <p className="mt-2 text-sm text-[var(--text-soft)]">Define event data in the console below using typed Clarity arguments.</p>
+          <h2 className="mt-3 text-[1.25rem] font-semibold">1) Choose event + payload</h2>
+          <p className="mt-3 text-sm text-[var(--text-soft)]">Define event data in the console below using typed Clarity arguments.</p>
         </article>
-        <article className="rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-5">
+        <article className="rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-6">
           <p className="font-mono text-xs uppercase tracking-wide text-[var(--text-soft)]">How It Works</p>
-          <h2 className="mt-2 text-xl font-semibold">2) Submit contract call</h2>
-          <p className="mt-2 text-sm text-[var(--text-soft)]">Each call emits a structured event with no mutable state dependencies.</p>
+          <h2 className="mt-3 text-[1.25rem] font-semibold">2) Submit contract call</h2>
+          <p className="mt-3 text-sm text-[var(--text-soft)]">Each call emits a structured event with no mutable state dependencies.</p>
         </article>
-        <article className="rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-5">
+        <article className="rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-6">
           <p className="font-mono text-xs uppercase tracking-wide text-[var(--text-soft)]">How It Works</p>
-          <h2 className="mt-2 text-xl font-semibold">3) Index and analyze</h2>
-          <p className="mt-2 text-sm text-[var(--text-soft)]">Read tx/event stream via indexers for dashboards, cohorts, and funnels.</p>
+          <h2 className="mt-3 text-[1.25rem] font-semibold">3) Index and analyze</h2>
+          <p className="mt-3 text-sm text-[var(--text-soft)]">Read tx/event stream via indexers for dashboards, cohorts, and funnels.</p>
         </article>
       </section>
 
@@ -278,30 +278,30 @@ export default function Home() {
       </section>
 
       <section className="rise-in grid gap-4 [animation-delay:155ms] lg:grid-cols-3">
-        <article className="rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-5">
+        <article className="rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-6">
           <p className="font-mono text-xs uppercase tracking-wide text-[var(--text-soft)]">Trust</p>
           <h3 className="mt-2 text-lg font-semibold">Production-safe event model</h3>
-          <p className="mt-2 text-sm text-[var(--text-soft)]">Stateless contract calls, deterministic payload structure, and clean indexer compatibility.</p>
+          <p className="mt-3 text-sm text-[var(--text-soft)]">Stateless contract calls, deterministic payload structure, and clean indexer compatibility.</p>
           <div className="mt-3 flex flex-wrap gap-2 text-xs">
             <span className="rounded-full border border-[var(--border)] px-2 py-1">No mutable state writes</span>
             <span className="rounded-full border border-[var(--border)] px-2 py-1">Script-friendly</span>
             <span className="rounded-full border border-[var(--border)] px-2 py-1">Stacks-native</span>
           </div>
         </article>
-        <article className="rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-5">
+        <article className="rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-6">
           <p className="font-mono text-xs uppercase tracking-wide text-[var(--text-soft)]">Integrations</p>
           <h3 className="mt-2 text-lg font-semibold">Fits existing analytics stack</h3>
-          <p className="mt-2 text-sm text-[var(--text-soft)]">Feed emitted events into ETL jobs, warehouse tables, BI dashboards, and cohort pipelines.</p>
+          <p className="mt-3 text-sm text-[var(--text-soft)]">Feed emitted events into ETL jobs, warehouse tables, BI dashboards, and cohort pipelines.</p>
           <div className="mt-3 flex flex-wrap gap-2 text-xs">
             <span className="rounded-full border border-[var(--border)] px-2 py-1">Data Warehouses</span>
             <span className="rounded-full border border-[var(--border)] px-2 py-1">Indexer APIs</span>
             <span className="rounded-full border border-[var(--border)] px-2 py-1">Dashboards</span>
           </div>
         </article>
-        <article className="rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-5">
+        <article className="rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-6">
           <p className="font-mono text-xs uppercase tracking-wide text-[var(--text-soft)]">FAQ</p>
           <h3 className="mt-2 text-lg font-semibold">Can we send high-volume events?</h3>
-          <p className="mt-2 text-sm text-[var(--text-soft)]">Yes. Calls do not depend on prior state transitions, so repeated submits remain predictable.</p>
+          <p className="mt-3 text-sm text-[var(--text-soft)]">Yes. Calls do not depend on prior state transitions, so repeated submits remain predictable.</p>
           <h4 className="mt-3 text-sm font-semibold">Do we need sponsorship?</h4>
           <p className="mt-1 text-sm text-[var(--text-soft)]">Not required. You can run standard wallet-signed calls or layer sponsorship later.</p>
         </article>
