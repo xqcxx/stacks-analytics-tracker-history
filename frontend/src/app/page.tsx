@@ -355,7 +355,7 @@ export default function Home() {
             <article className="rounded-2xl border border-[var(--border)] bg-[var(--surface-muted)] p-4">
               <h3 className="text-base font-semibold">Page View</h3>
               <input value={page} onChange={(event) => setPage(event.target.value)} className="mt-2 w-full rounded-lg border border-[var(--border)] bg-[#0c172b] px-3 py-2 font-mono text-sm outline-none ring-[var(--ring)] focus:ring" placeholder="page path" />
-              <button type="button" onClick={submitPageView} disabled={busy} className="mt-3 rounded-full bg-[var(--brand)] px-4 py-2 text-sm font-semibold text-[#04131f] disabled:opacity-60">Fire `track-page-view`</button>
+              <button type="button" onClick={submitPageView} disabled={busy} className="mt-3 rounded-full bg-[var(--brand)] px-5 py-2.5 text-sm font-semibold text-[#04131f] transition hover:bg-[var(--brand-soft)] disabled:opacity-60">Fire `track-page-view`</button>
             </article>
 
             <article className="rounded-2xl border border-[var(--border)] bg-[var(--surface-muted)] p-4">
@@ -364,7 +364,7 @@ export default function Home() {
                 <input value={actionName} onChange={(event) => setActionName(event.target.value)} className="rounded-lg border border-[var(--border)] bg-[#0c172b] px-3 py-2 font-mono text-sm outline-none ring-[var(--ring)] focus:ring" placeholder="action" />
                 <input value={target} onChange={(event) => setTarget(event.target.value)} className="rounded-lg border border-[var(--border)] bg-[#0c172b] px-3 py-2 font-mono text-sm outline-none ring-[var(--ring)] focus:ring" placeholder="target" />
               </div>
-              <button type="button" onClick={submitAction} disabled={busy} className="mt-3 rounded-full bg-[var(--brand)] px-4 py-2 text-sm font-semibold text-[#04131f] disabled:opacity-60">Fire `track-action`</button>
+              <button type="button" onClick={submitAction} disabled={busy} className="mt-3 rounded-full bg-[var(--brand)] px-5 py-2.5 text-sm font-semibold text-[#04131f] transition hover:bg-[var(--brand-soft)] disabled:opacity-60">Fire `track-action`</button>
             </article>
 
             <article className="rounded-2xl border border-[var(--border)] bg-[var(--surface-muted)] p-4">
@@ -373,7 +373,7 @@ export default function Home() {
                 <input value={conversionType} onChange={(event) => setConversionType(event.target.value)} className="rounded-lg border border-[var(--border)] bg-[#0c172b] px-3 py-2 font-mono text-sm outline-none ring-[var(--ring)] focus:ring" placeholder="conversion type" />
                 <input type="number" min="0" value={value} onChange={(event) => setValue(event.target.value)} className="rounded-lg border border-[var(--border)] bg-[#0c172b] px-3 py-2 font-mono text-sm outline-none ring-[var(--ring)] focus:ring" placeholder="value" />
               </div>
-              <button type="button" onClick={submitConversion} disabled={busy} className="mt-3 rounded-full bg-[var(--accent)] px-4 py-2 text-sm font-semibold text-[#201105] disabled:opacity-60">Fire `track-conversion`</button>
+              <button type="button" onClick={submitConversion} disabled={busy} className="mt-3 rounded-full bg-[var(--accent)] px-5 py-2.5 text-sm font-semibold text-[#201105] transition hover:opacity-90 disabled:opacity-60">Fire `track-conversion`</button>
             </article>
 
             <article className="rounded-2xl border border-[var(--border)] bg-[var(--surface-muted)] p-4">
@@ -382,7 +382,7 @@ export default function Home() {
                 <input value={customEventType} onChange={(event) => setCustomEventType(event.target.value)} className="rounded-lg border border-[var(--border)] bg-[#0c172b] px-3 py-2 font-mono text-sm outline-none ring-[var(--ring)] focus:ring" placeholder="event type" />
                 <input value={payload} onChange={(event) => setPayload(event.target.value)} className="rounded-lg border border-[var(--border)] bg-[#0c172b] px-3 py-2 font-mono text-sm outline-none ring-[var(--ring)] focus:ring" placeholder="payload" />
               </div>
-              <button type="button" onClick={submitCustomEvent} disabled={busy} className="mt-3 rounded-full bg-[var(--brand)] px-4 py-2 text-sm font-semibold text-[#04131f] disabled:opacity-60">Fire `track-custom-event`</button>
+              <button type="button" onClick={submitCustomEvent} disabled={busy} className="mt-3 rounded-full bg-[var(--brand)] px-5 py-2.5 text-sm font-semibold text-[#04131f] transition hover:bg-[var(--brand-soft)] disabled:opacity-60">Fire `track-custom-event`</button>
             </article>
           </div>
 
