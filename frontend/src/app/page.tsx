@@ -307,7 +307,7 @@ export default function Home() {
         </article>
       </section>
 
-      <section className="rise-in rounded-3xl border border-[var(--border)] bg-[var(--surface)] p-5 [animation-delay:162ms]">
+      <section className="rise-in rounded-3xl border border-[var(--border)] bg-[var(--surface)] p-6 [animation-delay:162ms]">
         <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
           <div>
             <p className="font-mono text-xs uppercase tracking-wide text-[var(--text-soft)]">Ready to launch</p>
