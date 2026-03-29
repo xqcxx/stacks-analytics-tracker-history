@@ -245,17 +245,17 @@ export default function Home() {
       <section id="how-it-works" className="rise-in grid gap-5 [animation-delay:80ms] md:grid-cols-3">
         <article className="rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-6">
           <p className="font-mono text-xs uppercase tracking-wide text-[var(--text-soft)]">How It Works</p>
-          <h2 className="mt-2 text-xl font-semibold">1) Choose event + payload</h2>
+          <h2 className="mt-3 text-[1.25rem] font-semibold">1) Choose event + payload</h2>
           <p className="mt-2 text-sm text-[var(--text-soft)]">Define event data in the console below using typed Clarity arguments.</p>
         </article>
         <article className="rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-6">
           <p className="font-mono text-xs uppercase tracking-wide text-[var(--text-soft)]">How It Works</p>
-          <h2 className="mt-2 text-xl font-semibold">2) Submit contract call</h2>
+          <h2 className="mt-3 text-[1.25rem] font-semibold">2) Submit contract call</h2>
           <p className="mt-2 text-sm text-[var(--text-soft)]">Each call emits a structured event with no mutable state dependencies.</p>
         </article>
         <article className="rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-6">
           <p className="font-mono text-xs uppercase tracking-wide text-[var(--text-soft)]">How It Works</p>
-          <h2 className="mt-2 text-xl font-semibold">3) Index and analyze</h2>
+          <h2 className="mt-3 text-[1.25rem] font-semibold">3) Index and analyze</h2>
           <p className="mt-2 text-sm text-[var(--text-soft)]">Read tx/event stream via indexers for dashboards, cohorts, and funnels.</p>
         </article>
       </section>
