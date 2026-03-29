@@ -242,7 +242,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="how-it-works" className="rise-in grid gap-4 [animation-delay:80ms] md:grid-cols-3">
+      <section id="how-it-works" className="rise-in grid gap-5 [animation-delay:80ms] md:grid-cols-3">
         <article className="rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-5">
           <p className="font-mono text-xs uppercase tracking-wide text-[var(--text-soft)]">How It Works</p>
           <h2 className="mt-2 text-xl font-semibold">1) Choose event + payload</h2>
