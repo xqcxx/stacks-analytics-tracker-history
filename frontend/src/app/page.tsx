@@ -329,9 +329,9 @@ export default function Home() {
         <h2 className="text-2xl font-semibold">Request a Demo</h2>
         <p className="mt-1 text-sm text-[var(--text-soft)]">Share your team details and analytics goals. We will follow up with an implementation walkthrough.</p>
         <div className="mt-3 grid gap-2 md:grid-cols-3">
-          <input className="rounded-xl border border-[var(--border)] bg-[var(--surface-muted)] px-3 py-2 text-sm" placeholder="Work email" />
-          <input className="rounded-xl border border-[var(--border)] bg-[var(--surface-muted)] px-3 py-2 text-sm" placeholder="Company" />
-          <input className="rounded-xl border border-[var(--border)] bg-[var(--surface-muted)] px-3 py-2 text-sm" placeholder="Monthly events" />
+<input className="rounded-xl border border-[var(--border)] bg-[var(--surface-muted)] px-4 py-2.5 text-sm outline-none ring-[var(--ring)] transition focus:ring focus:border-[var(--brand)]" placeholder="Work email" />
+      <input className="rounded-xl border border-[var(--border)] bg-[var(--surface-muted)] px-4 py-2.5 text-sm outline-none ring-[var(--ring)] transition focus:ring focus:border-[var(--brand)]" placeholder="Company" />
+      <input className="rounded-xl border border-[var(--border)] bg-[var(--surface-muted)] px-4 py-2.5 text-sm outline-none ring-[var(--ring)] transition focus:ring focus:border-[var(--brand)]" placeholder="Monthly events" />
         </div>
         <button type="button" className="mt-3 rounded-full bg-[var(--brand)] px-5 py-2.5 text-sm font-semibold text-[#04131f]">Submit Interest</button>
       </section>
