@@ -217,7 +217,7 @@ export default function Home() {
 
       <section className="rise-in rounded-3xl border border-[var(--border)] bg-[var(--surface)] p-6 shadow-[0_22px_80px_-45px_rgba(50,212,161,0.65)]">
         <p className="font-mono text-xs uppercase tracking-[0.28em] text-[var(--text-soft)]">GraphForge Analytics</p>
-        <h1 className="mt-3 text-4xl font-semibold leading-[1.05] md:text-6xl">Event Analytics on Stacks</h1>
+        <h1 className="mt-3 text-[2.5rem] font-semibold leading-[1.1] md:text-[3.5rem]">Event Analytics on Stacks</h1>
         <p className="mt-4 max-w-3xl text-sm text-[var(--text-soft)] md:text-base">
           Capture page views, user actions, conversions, and custom events as on-chain telemetry.
           Built for teams that need auditable analytics plus high-frequency scripted submissions.
