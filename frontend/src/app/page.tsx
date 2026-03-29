@@ -346,9 +346,9 @@ export default function Home() {
             <article className="rounded-2xl border border-[var(--border)] bg-[var(--surface-muted)] p-4 lg:col-span-2">
               <h3 className="text-base font-semibold">Runtime Config</h3>
               <div className="mt-2 grid gap-2 md:grid-cols-3">
-                <input value={contract} onChange={(event) => setContract(event.target.value)} className="rounded-lg border border-[var(--border)] bg-[#0c172b] px-3 py-2 font-mono text-xs outline-none ring-[var(--ring)] focus:ring" placeholder="SP...analytics-tracker" />
-                <select value={network} onChange={(event) => setNetwork(event.target.value)} className="rounded-lg border border-[var(--border)] bg-[#0c172b] px-3 py-2 text-sm outline-none ring-[var(--ring)] focus:ring"><option value="testnet">testnet</option><option value="mainnet">mainnet</option><option value="devnet">devnet</option></select>
-                <input value={projectId} onChange={(event) => setProjectId(event.target.value)} className="rounded-lg border border-[var(--border)] bg-[#0c172b] px-3 py-2 font-mono text-sm outline-none ring-[var(--ring)] focus:ring" placeholder="project-id" />
+                <input value={contract} onChange={(event) => setContract(event.target.value)} className="rounded-lg border border-[var(--border)] bg-[#0c172b] px-4 py-2.5 font-mono text-xs outline-none ring-[var(--ring)] transition focus:ring focus:border-[var(--brand)]" placeholder="SP...analytics-tracker" />
+                <select value={network} onChange={(event) => setNetwork(event.target.value)} className="rounded-lg border border-[var(--border)] bg-[#0c172b] px-4 py-2.5 text-sm outline-none ring-[var(--ring)] transition focus:ring focus:border-[var(--brand)]"><option value="testnet">testnet</option><option value="mainnet">mainnet</option><option value="devnet">devnet</option></select>
+                <input value={projectId} onChange={(event) => setProjectId(event.target.value)} className="rounded-lg border border-[var(--border)] bg-[#0c172b] px-4 py-2.5 font-mono text-sm outline-none ring-[var(--ring)] transition focus:ring focus:border-[var(--brand)]" placeholder="project-id" />
               </div>
             </article>
 
