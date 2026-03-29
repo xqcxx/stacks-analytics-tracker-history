@@ -234,7 +234,7 @@ export default function Home() {
           <button
             type="button"
             onClick={disconnectWallet}
-            className="rounded-full border border-[var(--border)] bg-transparent px-5 py-2.5 text-sm font-semibold"
+            className="rounded-full border border-[var(--border)] bg-transparent px-6 py-3 text-sm font-semibold transition hover:border-[var(--brand)] hover:text-[var(--brand)]"
           >
             Disconnect
           </button>
