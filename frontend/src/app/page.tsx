@@ -325,7 +325,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="contact" className="rise-in rounded-3xl border border-[var(--border)] bg-[var(--surface)] p-5 [animation-delay:166ms]">
+      <section id="contact" className="rise-in rounded-3xl border border-[var(--border)] bg-[var(--surface)] p-6 [animation-delay:166ms]">
         <h2 className="text-2xl font-semibold">Request a Demo</h2>
         <p className="mt-1 text-sm text-[var(--text-soft)]">Share your team details and analytics goals. We will follow up with an implementation walkthrough.</p>
         <div className="mt-3 grid gap-2 md:grid-cols-3">
@@ -336,7 +336,7 @@ export default function Home() {
         <button type="button" className="mt-3 rounded-full bg-[var(--brand)] px-5 py-2.5 text-sm font-semibold text-[#04131f]">Submit Interest</button>
       </section>
 
-      <section id="live-console" className="rise-in space-y-4 rounded-3xl border border-[var(--border)] bg-[var(--surface)] p-5 [animation-delay:170ms]">
+      <section id="live-console" className="rise-in space-y-4 rounded-3xl border border-[var(--border)] bg-[var(--surface)] p-6 [animation-delay:170ms]">
         <h2 className="text-2xl font-semibold">Live Console</h2>
         <p className="text-sm text-[var(--text-soft)]">Interactive contract form for demos and scripted operation dry-runs.</p>
         <p className="rounded-xl border border-[var(--border)] bg-[var(--surface-muted)] px-3 py-2 font-mono text-xs text-[var(--text-soft)]">{status}</p>
