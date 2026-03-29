@@ -209,9 +209,9 @@ export default function Home() {
       <nav className="rise-in flex items-center justify-between rounded-2xl border border-[var(--border)] bg-[var(--surface)] px-4 py-3">
         <p className="font-mono text-xs uppercase tracking-[0.2em] text-[var(--text-soft)]">GraphForge</p>
         <div className="flex items-center gap-2 text-xs">
-          <a href="#how-it-works" className="rounded-full border border-[var(--border)] px-3 py-1">How It Works</a>
-          <a href="#live-console" className="rounded-full border border-[var(--border)] px-3 py-1">Console</a>
-          <a href="#contact" className="rounded-full bg-[var(--brand)] px-3 py-1 font-semibold text-[#04131f]">Request Demo</a>
+<a href="#how-it-works" className="rounded-full border border-[var(--border)] px-4 py-1.5 transition hover:border-[var(--brand)] hover:text-[var(--brand)]">How It Works</a>
+        <a href="#live-console" className="rounded-full border border-[var(--border)] px-4 py-1.5 transition hover:border-[var(--brand)] hover:text-[var(--brand)]">Console</a>
+        <a href="#contact" className="rounded-full bg-[var(--brand)] px-4 py-1.5 font-semibold text-[#04131f] transition hover:bg-[var(--brand-soft)]">Request Demo</a>
         </div>
       </nav>
 
