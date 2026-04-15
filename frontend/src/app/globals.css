@@ -6,12 +6,12 @@
   --surface: #101a2d;
   --surface-muted: #162340;
   --text: #e8efff;
-  --text-soft: #9fb2d9;
+  --text-soft: #a9c2e6;
   --brand: #3b82f6;
   --brand-soft: #60a5fa;
   --accent: #ef4444;
   --ring: rgba(75, 231, 180, 0.32);
-  --border: #2a416b;
+  --border: #2e4f7f;
 }
 
 @theme inline {
