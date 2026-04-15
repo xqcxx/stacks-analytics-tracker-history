@@ -6,12 +6,12 @@
   --surface: #101a2d;
   --surface-muted: #162340;
   --text: #e8efff;
-  --text-soft: #d0c3a2;
-  --brand: #f59e0b;
-  --brand-soft: #fbbf24;
-  --accent: #eab308;
+  --text-soft: #d9b8a8;
+  --brand: #f97316;
+  --brand-soft: #fb923c;
+  --accent: #f43f5e;
   --ring: rgba(75, 231, 180, 0.32);
-  --border: #5f4a2b;
+  --border: #6a3f31;
 }
 
 @theme inline {
@@ -23,8 +23,8 @@
 
 body {
   background:
-    radial-gradient(circle at 10% 15%, rgba(245, 158, 11, 0.16), transparent 38%),
-    radial-gradient(circle at 86% 4%, rgba(251, 191, 36, 0.18), transparent 42%),
+    radial-gradient(circle at 10% 15%, rgba(251, 113, 133, 0.16), transparent 38%),
+    radial-gradient(circle at 86% 4%, rgba(249, 115, 22, 0.18), transparent 42%),
     linear-gradient(180deg, var(--bg), var(--bg-strong));
   color: var(--text);
   font-family: var(--font-manrope), sans-serif;
