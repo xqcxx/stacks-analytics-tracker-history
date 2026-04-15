@@ -23,8 +23,8 @@
 
 body {
   background:
-    radial-gradient(circle at 10% 15%, rgba(255, 154, 90, 0.18), transparent 38%),
-    radial-gradient(circle at 86% 4%, rgba(50, 212, 161, 0.2), transparent 42%),
+    radial-gradient(circle at 10% 15%, rgba(16, 185, 129, 0.16), transparent 38%),
+    radial-gradient(circle at 86% 4%, rgba(52, 211, 153, 0.20), transparent 42%),
     linear-gradient(180deg, var(--bg), var(--bg-strong));
   color: var(--text);
   font-family: var(--font-manrope), sans-serif;
