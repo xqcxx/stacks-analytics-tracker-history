@@ -98,3 +98,16 @@ textarea {
   transform: translateY(-1px);
   box-shadow: 0 10px 24px -18px rgba(0, 0, 0, 0.8);
 }
+
+.section-accent {
+  position: relative;
+  overflow: hidden;
+}
+
+.section-accent::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--brand), transparent 72%);
+}
