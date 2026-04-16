@@ -85,3 +85,12 @@ textarea {
   border: 1px solid color-mix(in oklab, var(--border) 80%, #ffffff 10%);
   background: color-mix(in oklab, var(--surface-muted) 86%, #000000 14%);
 }
+
+.cta-lift {
+  transition: transform 180ms ease, box-shadow 180ms ease, background-color 180ms ease;
+}
+
+.cta-lift:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 24px -18px rgba(0, 0, 0, 0.8);
+}
