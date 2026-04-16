@@ -353,9 +353,18 @@ export default function Home() {
         <h2 className="text-2xl font-semibold">Request a Demo</h2>
         <p className="mt-1 text-sm text-[var(--text-soft)]">Share your team details and analytics goals. We will follow up with an implementation walkthrough.</p>
         <div className="mt-3 grid gap-2 md:grid-cols-3">
-<input className="rounded-xl border border-[var(--border)] bg-[var(--surface-muted)] px-4 py-2.5 text-sm outline-none ring-[var(--ring)] transition focus:ring focus:border-[var(--brand)]" placeholder="Work email" />
-      <input className="rounded-xl border border-[var(--border)] bg-[var(--surface-muted)] px-4 py-2.5 text-sm outline-none ring-[var(--ring)] transition focus:ring focus:border-[var(--brand)]" placeholder="Company" />
-      <input className="rounded-xl border border-[var(--border)] bg-[var(--surface-muted)] px-4 py-2.5 text-sm outline-none ring-[var(--ring)] transition focus:ring focus:border-[var(--brand)]" placeholder="Monthly events" />
+          <label className="grid gap-1 text-xs text-[var(--text-soft)]">
+            Work email
+            <input className="rounded-xl border border-[var(--border)] bg-[var(--surface-muted)] px-4 py-2.5 text-sm outline-none ring-[var(--ring)] transition focus:ring focus:border-[var(--brand)]" placeholder="team@company.com" />
+          </label>
+          <label className="grid gap-1 text-xs text-[var(--text-soft)]">
+            Company
+            <input className="rounded-xl border border-[var(--border)] bg-[var(--surface-muted)] px-4 py-2.5 text-sm outline-none ring-[var(--ring)] transition focus:ring focus:border-[var(--brand)]" placeholder="Acme Labs" />
+          </label>
+          <label className="grid gap-1 text-xs text-[var(--text-soft)]">
+            Monthly events
+            <input className="rounded-xl border border-[var(--border)] bg-[var(--surface-muted)] px-4 py-2.5 text-sm outline-none ring-[var(--ring)] transition focus:ring focus:border-[var(--brand)]" placeholder="500000" />
+          </label>
         </div>
         <button type="button" className="cta-lift mt-3 rounded-full bg-[var(--brand)] px-5 py-2.5 text-sm font-semibold text-[#04131f]">Submit Interest</button>
       </section>
