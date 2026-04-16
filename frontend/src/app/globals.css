@@ -70,3 +70,18 @@ textarea {
 .rise-in {
   animation: riseIn 420ms ease-out both;
 }
+
+.glass-nav {
+  backdrop-filter: blur(14px);
+  background: color-mix(in oklab, var(--surface) 88%, #ffffff 6%);
+  box-shadow: 0 12px 35px -26px rgba(0, 0, 0, 0.75);
+}
+
+.surface-panel {
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.03), 0 20px 50px -38px rgba(0, 0, 0, 0.8);
+}
+
+.metric-chip {
+  border: 1px solid color-mix(in oklab, var(--border) 80%, #ffffff 10%);
+  background: color-mix(in oklab, var(--surface-muted) 86%, #000000 14%);
+}
