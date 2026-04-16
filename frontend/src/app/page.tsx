@@ -206,7 +206,7 @@ export default function Home() {
 
   return (
     <div className="mx-auto flex min-h-screen w-full max-w-7xl flex-col gap-6 px-4 py-6 sm:px-6 lg:py-10">
-      <nav className="rise-in flex items-center justify-between rounded-2xl border border-[var(--border)] bg-[var(--surface)] px-4 py-3">
+      <nav className="rise-in glass-nav sticky top-4 z-30 flex items-center justify-between rounded-2xl border border-[var(--border)] px-4 py-3">
         <p className="font-mono text-xs uppercase tracking-[0.2em] text-[var(--text-soft)]">GraphForge</p>
         <div className="flex items-center gap-2 text-xs">
 <a href="#how-it-works" className="rounded-full border border-[var(--border)] px-4 py-1.5 transition hover:border-[var(--brand)] hover:text-[var(--brand)]">How It Works</a>
