@@ -31,6 +31,15 @@ body {
   min-height: 100vh;
 }
 
+::selection {
+  background: color-mix(in oklab, var(--brand) 60%, #ffffff 10%);
+  color: #04131f;
+}
+
+a {
+  transition: color 180ms ease, border-color 180ms ease, background-color 180ms ease;
+}
+
 input,
 select {
   color: var(--text);
