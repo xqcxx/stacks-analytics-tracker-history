@@ -459,9 +459,11 @@ export default function Home() {
       <footer className="rounded-2xl border border-[var(--border)] bg-[var(--surface)] px-4 py-4 text-xs text-[var(--text-soft)]">
         <div className="flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
           <p>GraphForge Analytics - On-chain telemetry infrastructure for product teams.</p>
-          <div className="flex items-center gap-3">
+          <div className="flex flex-wrap items-center gap-2">
             <span>Security-first architecture</span>
+            <span className="opacity-60">•</span>
             <span>Stacks compatible</span>
+            <span className="opacity-60">•</span>
             <span>Version 1.0</span>
           </div>
         </div>
