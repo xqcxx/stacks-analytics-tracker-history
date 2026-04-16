@@ -221,7 +221,7 @@ export default function Home() {
         </div>
       </nav>
 
-      <section className="rise-in rounded-3xl border border-[var(--border)] bg-[var(--surface)] p-8 shadow-[0_22px_80px_-45px_rgba(50,212,161,0.65)]">
+      <section className="rise-in surface-panel rounded-3xl border border-[var(--border)] bg-[var(--surface)] p-8 shadow-[0_22px_80px_-45px_rgba(50,212,161,0.65)]">
         <p className="font-mono text-xs uppercase tracking-[0.28em] text-[var(--text-soft)]">GraphForge Analytics</p>
         <h1 className="mt-3 text-[2.5rem] font-semibold leading-[1.1] md:text-[3.5rem]">Event Analytics on Stacks</h1>
         <p className="mt-5 max-w-3xl text-base text-[var(--text-soft)] md:text-lg">
@@ -280,7 +280,7 @@ export default function Home() {
         </article>
       </section>
 
-      <section className="rise-in rounded-3xl border border-[var(--border)] bg-[var(--surface)] p-6 [animation-delay:130ms]">
+      <section className="rise-in surface-panel rounded-3xl border border-[var(--border)] bg-[var(--surface)] p-6 [animation-delay:130ms]">
         <div className="grid gap-4 lg:grid-cols-[1fr_1fr_1fr]">
           <div className="rounded-2xl border border-[var(--border)] bg-[var(--surface-muted)] p-5">
             <p className="font-mono text-xs uppercase tracking-wide text-[var(--text-soft)]">Use Cases</p>
@@ -327,7 +327,7 @@ export default function Home() {
         </article>
       </section>
 
-      <section className="rise-in rounded-3xl border border-[var(--border)] bg-[var(--surface)] p-6 [animation-delay:162ms]">
+      <section className="rise-in surface-panel rounded-3xl border border-[var(--border)] bg-[var(--surface)] p-6 [animation-delay:162ms]">
         <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
           <div>
             <p className="font-mono text-xs uppercase tracking-wide text-[var(--text-soft)]">Ready to launch</p>
@@ -345,7 +345,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="contact" className="rise-in rounded-3xl border border-[var(--border)] bg-[var(--surface)] p-6 [animation-delay:166ms]">
+      <section id="contact" className="rise-in surface-panel rounded-3xl border border-[var(--border)] bg-[var(--surface)] p-6 [animation-delay:166ms]">
         <h2 className="text-2xl font-semibold">Request a Demo</h2>
         <p className="mt-1 text-sm text-[var(--text-soft)]">Share your team details and analytics goals. We will follow up with an implementation walkthrough.</p>
         <div className="mt-3 grid gap-2 md:grid-cols-3">
@@ -356,7 +356,7 @@ export default function Home() {
         <button type="button" className="mt-3 rounded-full bg-[var(--brand)] px-5 py-2.5 text-sm font-semibold text-[#04131f]">Submit Interest</button>
       </section>
 
-      <section id="live-console" className="rise-in space-y-4 rounded-3xl border border-[var(--border)] bg-[var(--surface)] p-6 [animation-delay:170ms]">
+      <section id="live-console" className="rise-in surface-panel space-y-4 rounded-3xl border border-[var(--border)] bg-[var(--surface)] p-6 [animation-delay:170ms]">
         <h2 className="text-2xl font-semibold">Live Console</h2>
         <p className="text-sm text-[var(--text-soft)]">Interactive contract form for demos and scripted operation dry-runs.</p>
         <p className="rounded-xl border border-[var(--border)] bg-[var(--surface-muted)] px-3 py-2 font-mono text-xs text-[var(--text-soft)]">{status}</p>
