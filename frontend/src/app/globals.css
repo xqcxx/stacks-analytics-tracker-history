@@ -112,3 +112,16 @@ textarea {
   height: 2px;
   background: linear-gradient(90deg, var(--brand), transparent 72%);
 }
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .rise-in,
+  .cta-lift {
+    animation: none !important;
+    transition: none !important;
+    transform: none !important;
+  }
+}
