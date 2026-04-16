@@ -49,6 +49,10 @@ select {
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 button,
 input,
 select,
