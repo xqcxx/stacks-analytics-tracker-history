@@ -17,6 +17,11 @@ function txIdFromResult(result: { txid?: string; txId?: string }): string {
   return result.txid ?? result.txId ?? "unknown";
 }
 
+function getExplorerBase(network: string): string {
+  if (network === "mainnet") return "https://explorer.hiro.so/txid";
+  return "https://explorer.hiro.so/txid";
+}
+
 async function loadStacksConnect() {
   return import("@stacks/connect");
 }
@@ -435,7 +440,14 @@ export default function Home() {
                   <li key={item.id} className="rounded-xl border border-[var(--border)] bg-[var(--surface)] px-3 py-3">
                     <p className="font-mono text-[11px] uppercase tracking-wide text-[var(--text-soft)]">{item.type} @ {item.at}</p>
                     <p className="mt-1 text-sm">{item.summary}</p>
-                    <p className="mt-1 font-mono text-xs text-[var(--text-soft)]">{item.txId}</p>
+                    <a
+                      href={`${getExplorerBase(network)}/${item.txId}?chain=${network}`}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="mt-1 block break-all font-mono text-xs text-[var(--brand-soft)] hover:text-[var(--brand)]"
+                    >
+                      {item.txId}
+                    </a>
                   </li>
                 ))}
               </ul>
