@@ -23,3 +23,5 @@ frontend/.git/
 .env.development.local
 .env.test.local
 .env.production.local
+stacks/
+analytics-sdk/

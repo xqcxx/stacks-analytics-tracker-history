@@ -1,0 +1,24 @@
+{
+    "name": "stacks-analytics-tracker-history",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "interact": "npx ts-node interact_analytics_tracker.ts",
+        "interact:contracts": "npx ts-node interact_contracts.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "dependencies": {
+        "@stacks/common": "^7.3.1",
+        "@stacks/encryption": "^7.3.1",
+        "@stacks/network": "^7.3.1",
+        "@stacks/transactions": "^7.3.1",
+        "@stacks/wallet-sdk": "^7.2.0",
+        "@types/node": "^25.0.10",
+        "dotenv": "^16.4.7",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.9.3"
+    }
+}
