@@ -1,0 +1,72 @@
+How to run mt.ts and script.ts
+==============================
+
+Prerequisites
+-------------
+1. Install dependencies from the project root:
+	npm install
+2. Create a `.env` file in the project root.
+3. Add at least this required variable:
+	MNEMONIC="your wallet mnemonic phrase"
+
+Optional `.env` values used by both scripts
+-------------------------------------------
+- STACKS_API_URL=https://api.mainnet.hiro.so
+- DEPLOYER_ADDRESS=SP3CPTJFP3TQK00DV0B5SGE8R0N3Z40MWJ6QZD38Y
+- TX_FEE_MICROSTX=5000
+- HIRO_API_KEY=<your hiro api key>
+
+Rate-limit tuning values used by script.ts (all optional)
+---------------------------------------------------------
+- HIRO_RPM_LIMIT=900
+- HIRO_TARGET_UTILIZATION=0.8
+- NONCE_BATCH_DELAY_MS=<auto if omitted>
+- BROADCAST_BATCH_DELAY_MS=<auto if omitted>
+- NONCE_BATCH_SIZE=<auto if omitted>
+- BROADCAST_BATCH_SIZE=<auto if omitted>
+- BROADCAST_RETRIES=3
+- BROADCAST_RETRY_BASE_DELAY_MS=1000
+
+Run mt.ts
+---------
+Purpose:
+- Sends STX in batches via the `multi-transfer` contract.
+
+Command format:
+- npx ts-node mt.ts <funded_index> <start_index> <end_index> <amount_stx>
+
+Arguments:
+- funded_index: wallet index that pays and sends
+- start_index: first recipient wallet index
+- end_index: last recipient wallet index (inclusive)
+- amount_stx: amount sent to each recipient wallet
+
+Example:
+- npx ts-node mt.ts 0 1 50 0.1
+
+Run script.ts
+-------------
+Purpose:
+- Sends randomized analytics contract calls in burst mode for a wallet range.
+
+Command format:
+- npx ts-node script.ts <start_index> <end_index>
+
+Arguments:
+- start_index: first wallet index to use
+- end_index: last wallet index to use (inclusive)
+
+Example:
+- npx ts-node script.ts 0 50
+
+Notes
+-----
+- Run commands from the repository root (`stacks-analytics-tracker-history`).
+- Both scripts target mainnet by default unless `STACKS_API_URL` is changed.
+- If you hit rate limits, lower throughput by increasing delay values and/or reducing batch sizes.
+
+
+
+1 to 50 is funded with 0.1 each
+
+Everyday, do from 100 to 500 transactions
