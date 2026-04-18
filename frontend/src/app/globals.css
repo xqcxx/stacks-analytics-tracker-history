@@ -165,3 +165,8 @@ textarea {
 .aui-action-pill {
   box-shadow: 0 12px 28px -20px rgba(0, 0, 0, 0.75);
 }
+
+.aui-section-title {
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
