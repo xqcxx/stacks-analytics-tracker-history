@@ -213,6 +213,11 @@ export default function Home() {
     );
   }
 
+  function clearActivity() {
+    setActivity([]);
+    setStatus("Local event feed cleared.");
+  }
+
   return (
     <div className="mx-auto flex min-h-screen w-full max-w-7xl aui-shell flex-col gap-5 px-4 py-5 sm:gap-6 sm:px-6 lg:py-10">
       <a
@@ -430,7 +435,17 @@ export default function Home() {
           <div className="rounded-2xl border border-[var(--border)] bg-[#0c172b] p-4">
             <div className="flex items-center justify-between gap-2">
               <h3 className="text-base font-semibold">Recent Events</h3>
-              <span className="rounded-full border border-[var(--border)] px-3 py-1 font-mono text-xs text-[var(--text-soft)]">{activity.length}</span>
+              <div className="flex items-center gap-2">
+                <span className="rounded-full border border-[var(--border)] px-3 py-1 font-mono text-xs text-[var(--text-soft)]">{activity.length}</span>
+                <button
+                  type="button"
+                  onClick={clearActivity}
+                  disabled={busy || activity.length === 0}
+                  className="rounded-full border border-[var(--border)] px-3 py-1 font-mono text-xs text-[var(--text-soft)] transition hover:border-[var(--brand)] hover:text-[var(--brand)] disabled:cursor-not-allowed disabled:opacity-50"
+                >
+                  Clear Feed
+                </button>
+              </div>
             </div>
             {activity.length === 0 ? (
               <p className="mt-3 text-sm text-[var(--text-soft)]">Nothing emitted yet. Fire any function to append entries.</p>
