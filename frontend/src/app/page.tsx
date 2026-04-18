@@ -256,14 +256,14 @@ export default function Home() {
             type="button"
             onClick={connectWallet}
             disabled={busy}
-            className="cta-lift rounded-full bg-[var(--brand)] px-6 py-3 text-sm font-semibold text-[#04131f] transition hover:bg-[var(--brand-soft)] disabled:cursor-not-allowed disabled:opacity-60"
+            className="cta-lift aui-action-pill rounded-full bg-[var(--brand)] px-6 py-3 text-sm font-semibold text-[#04131f] transition hover:bg-[var(--brand-soft)] disabled:cursor-not-allowed disabled:opacity-60"
           >
             Connect Wallet
           </button>
           <button
             type="button"
             onClick={disconnectWallet}
-            className="cta-lift rounded-full border border-[var(--border)] bg-transparent px-6 py-3 text-sm font-semibold transition hover:border-[var(--brand)] hover:text-[var(--brand)]"
+            className="cta-lift aui-action-pill rounded-full border border-[var(--border)] bg-transparent px-6 py-3 text-sm font-semibold transition hover:border-[var(--brand)] hover:text-[var(--brand)]"
           >
             Disconnect
           </button>
@@ -347,7 +347,7 @@ export default function Home() {
             type="button"
             onClick={connectWallet}
             disabled={busy}
-            className="cta-lift rounded-full bg-[var(--brand)] px-5 py-2.5 text-sm font-semibold text-[#04131f] disabled:opacity-60"
+            className="cta-lift aui-action-pill rounded-full bg-[var(--brand)] px-5 py-2.5 text-sm font-semibold text-[#04131f] disabled:opacity-60"
           >
             Open Console
           </button>
