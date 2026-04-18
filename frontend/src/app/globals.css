@@ -129,3 +129,8 @@ textarea {
 .aui-shell {
   max-width: min(1200px, 96vw);
 }
+
+.aui-nav-chip {
+  backdrop-filter: blur(8px);
+  background: color-mix(in oklab, var(--surface) 86%, #ffffff 8%);
+}
