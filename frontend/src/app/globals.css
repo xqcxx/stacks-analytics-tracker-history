@@ -139,3 +139,8 @@ textarea {
   letter-spacing: 0.24em;
   color: color-mix(in oklab, var(--text-soft) 82%, #d7fff0 18%);
 }
+
+.aui-display-title {
+  text-wrap: balance;
+  text-shadow: 0 12px 34px rgba(0, 0, 0, 0.35);
+}
