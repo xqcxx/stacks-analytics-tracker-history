@@ -465,7 +465,17 @@ export default function Home() {
               </div>
             </div>
             {activity.length === 0 ? (
-              <p className="mt-3 text-sm text-[var(--text-soft)]">Nothing emitted yet. Fire any function to append entries.</p>
+              <div className="mt-3 space-y-2">
+                <p className="text-sm text-[var(--text-soft)]">Nothing emitted yet. Fire any function to append entries.</p>
+                <button
+                  type="button"
+                  onClick={submitPageView}
+                  disabled={busy}
+                  className="rounded-full border border-[var(--border)] px-3 py-1 font-mono text-xs text-[var(--text-soft)] transition hover:border-[var(--brand)] hover:text-[var(--brand)] disabled:cursor-not-allowed disabled:opacity-50"
+                >
+                  Quick start: fire page-view
+                </button>
+              </div>
             ) : (
               <ul className="mt-3 space-y-2">
                 {activity.map((item) => (
