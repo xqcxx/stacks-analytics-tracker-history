@@ -219,3 +219,7 @@ textarea {
   background-image: linear-gradient(to right, rgba(255,255,255,0.025) 1px, transparent 1px), linear-gradient(to bottom, rgba(255,255,255,0.02) 1px, transparent 1px);
   background-size: 36px 36px;
 }
+
+.aui-split {
+  align-items: start;
+}
