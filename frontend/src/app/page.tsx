@@ -437,7 +437,7 @@ export default function Home() {
             ) : (
               <ul className="mt-3 space-y-2">
                 {activity.map((item) => (
-                  <li key={item.id} className="rounded-xl border border-[var(--border)] bg-[var(--surface)] px-3 py-3">
+                  <li key={item.id} className="rounded-xl border border-[var(--border)] bg-[var(--surface)] px-3 py-3 aui-event-item">
                     <p className="font-mono text-[11px] uppercase tracking-wide text-[var(--text-soft)]">{item.type} @ {item.at}</p>
                     <p className="mt-1 text-sm">{item.summary}</p>
                     <a
