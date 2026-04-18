@@ -200,3 +200,8 @@ textarea {
   text-decoration-thickness: 1px;
   text-underline-offset: 2px;
 }
+
+.aui-footer-meta {
+  opacity: 0.92;
+  letter-spacing: 0.02em;
+}
