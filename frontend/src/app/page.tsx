@@ -431,7 +431,7 @@ export default function Home() {
               <h3 className="text-base font-semibold">Custom Event</h3>
               <div className="mt-2 grid gap-2">
 <input value={customEventType} onChange={(event) => setCustomEventType(event.target.value)} className="rounded-lg border border-[var(--border)] bg-[var(--input-surface)] px-4 py-2.5 font-mono text-sm outline-none ring-[var(--ring)] transition focus:ring focus:border-[var(--brand)]" placeholder="event type" />
-          <input value={payload} onChange={(event) => setPayload(event.target.value)} className="rounded-lg border border-[var(--border)] bg-[var(--input-surface)] px-4 py-2.5 font-mono text-sm outline-none ring-[var(--ring)] transition focus:ring focus:border-[var(--brand)]" placeholder="payload" />
+          <textarea value={payload} onChange={(event) => setPayload(event.target.value)} className="min-h-20 rounded-lg border border-[var(--border)] bg-[var(--input-surface)] px-4 py-2.5 font-mono text-sm outline-none ring-[var(--ring)] transition focus:ring focus:border-[var(--brand)]" placeholder="payload" />
               </div>
               <button type="button" onClick={submitCustomEvent} disabled={busy} className="cta-lift mt-3 rounded-full bg-[var(--brand)] px-5 py-2.5 text-sm font-semibold text-[#04131f] transition hover:bg-[var(--brand-soft)] disabled:opacity-60">Fire `track-custom-event`</button>
             </article>
