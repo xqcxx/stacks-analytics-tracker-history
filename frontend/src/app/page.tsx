@@ -374,7 +374,7 @@ export default function Home() {
         <button type="button" className="cta-lift mt-3 rounded-full bg-[var(--brand)] px-5 py-2.5 text-sm font-semibold text-[#04131f]">Submit Interest</button>
       </section>
 
-      <section id="live-console" className="rise-in surface-panel section-accent space-y-4 rounded-3xl border border-[var(--border)] bg-[var(--surface)] p-6 [animation-delay:170ms]">
+      <section id="live-console" className="rise-in surface-panel section-accent space-y-4 aui-console-shell rounded-3xl border border-[var(--border)] bg-[var(--surface)] p-6 [animation-delay:170ms]">
         <h2 className="text-2xl font-semibold aui-section-title">Live Console</h2>
         <p className="text-sm text-[var(--text-soft)]">Interactive contract form for demos and scripted operation dry-runs.</p>
         <p className={`rounded-xl border bg-[var(--surface-muted)] px-3 py-2 font-mono text-xs ${statusClass}`}>
