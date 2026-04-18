@@ -256,7 +256,7 @@ export default function Home() {
             type="button"
             onClick={connectWallet}
             disabled={busy}
-            className="cta-lift aui-action-pill rounded-full bg-[var(--brand)] px-6 py-3 text-sm font-semibold text-[#04131f] transition hover:bg-[var(--brand-soft)] disabled:cursor-not-allowed disabled:opacity-60"
+            className="cta-lift aui-action-pill aui-focus-ring rounded-full bg-[var(--brand)] px-6 py-3 text-sm font-semibold text-[#04131f] transition hover:bg-[var(--brand-soft)] disabled:cursor-not-allowed disabled:opacity-60"
           >
             Connect Wallet
           </button>
