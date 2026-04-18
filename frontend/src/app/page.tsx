@@ -360,15 +360,15 @@ export default function Home() {
         <div className="mt-3 grid gap-2 md:grid-cols-3">
           <label className="grid gap-1 text-xs text-[var(--text-soft)]">
             Work email
-            <input className="rounded-xl border border-[var(--border)] bg-[var(--surface-muted)] px-4 py-2.5 text-sm outline-none ring-[var(--ring)] transition focus:ring focus:border-[var(--brand)]" placeholder="team@company.com" />
+            <input className="rounded-xl border border-[var(--border)] bg-[var(--surface-muted)] px-4 py-2.5 text-sm aui-form-field outline-none ring-[var(--ring)] transition focus:ring focus:border-[var(--brand)]" placeholder="team@company.com" />
           </label>
           <label className="grid gap-1 text-xs text-[var(--text-soft)]">
             Company
-            <input className="rounded-xl border border-[var(--border)] bg-[var(--surface-muted)] px-4 py-2.5 text-sm outline-none ring-[var(--ring)] transition focus:ring focus:border-[var(--brand)]" placeholder="Acme Labs" />
+            <input className="rounded-xl border border-[var(--border)] bg-[var(--surface-muted)] px-4 py-2.5 text-sm aui-form-field outline-none ring-[var(--ring)] transition focus:ring focus:border-[var(--brand)]" placeholder="Acme Labs" />
           </label>
           <label className="grid gap-1 text-xs text-[var(--text-soft)]">
             Monthly events
-            <input className="rounded-xl border border-[var(--border)] bg-[var(--surface-muted)] px-4 py-2.5 text-sm outline-none ring-[var(--ring)] transition focus:ring focus:border-[var(--brand)]" placeholder="500000" />
+            <input className="rounded-xl border border-[var(--border)] bg-[var(--surface-muted)] px-4 py-2.5 text-sm aui-form-field outline-none ring-[var(--ring)] transition focus:ring focus:border-[var(--brand)]" placeholder="500000" />
           </label>
         </div>
         <button type="button" className="cta-lift mt-3 rounded-full bg-[var(--brand)] px-5 py-2.5 text-sm font-semibold text-[#04131f]">Submit Interest</button>
