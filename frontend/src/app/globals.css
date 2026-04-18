@@ -144,3 +144,8 @@ textarea {
   text-wrap: balance;
   text-shadow: 0 12px 34px rgba(0, 0, 0, 0.35);
 }
+
+.aui-body-copy {
+  max-inline-size: 66ch;
+  line-height: 1.72;
+}
