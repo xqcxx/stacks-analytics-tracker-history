@@ -312,9 +312,9 @@ export default function Home() {
           <h3 className="mt-2 text-lg font-semibold">Production-safe event model</h3>
           <p className="mt-3 text-sm text-[var(--text-soft)]">Stateless contract calls, deterministic payload structure, and clean indexer compatibility.</p>
           <div className="mt-3 flex flex-wrap gap-2 text-xs">
-            <span className="rounded-full border border-[var(--border)] px-2 py-1">No mutable state writes</span>
-            <span className="rounded-full border border-[var(--border)] px-2 py-1">Script-friendly</span>
-            <span className="rounded-full border border-[var(--border)] px-2 py-1">Stacks-native</span>
+            <span className="rounded-full border border-[var(--border)] px-2 py-1 aui-chip-compact">No mutable state writes</span>
+            <span className="rounded-full border border-[var(--border)] px-2 py-1 aui-chip-compact">Script-friendly</span>
+            <span className="rounded-full border border-[var(--border)] px-2 py-1 aui-chip-compact">Stacks-native</span>
           </div>
         </article>
         <article className="rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-6 aui-card-soft">
@@ -322,9 +322,9 @@ export default function Home() {
           <h3 className="mt-2 text-lg font-semibold">Fits existing analytics stack</h3>
           <p className="mt-3 text-sm text-[var(--text-soft)]">Feed emitted events into ETL jobs, warehouse tables, BI dashboards, and cohort pipelines.</p>
           <div className="mt-3 flex flex-wrap gap-2 text-xs">
-            <span className="rounded-full border border-[var(--border)] px-2 py-1">Data Warehouses</span>
-            <span className="rounded-full border border-[var(--border)] px-2 py-1">Indexer APIs</span>
-            <span className="rounded-full border border-[var(--border)] px-2 py-1">Dashboards</span>
+            <span className="rounded-full border border-[var(--border)] px-2 py-1 aui-chip-compact">Data Warehouses</span>
+            <span className="rounded-full border border-[var(--border)] px-2 py-1 aui-chip-compact">Indexer APIs</span>
+            <span className="rounded-full border border-[var(--border)] px-2 py-1 aui-chip-compact">Dashboards</span>
           </div>
         </article>
         <article className="rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-6 aui-card-soft">
