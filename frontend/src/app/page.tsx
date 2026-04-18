@@ -34,6 +34,11 @@ function eventBadgeClass(type: ActivityItem["type"]): string {
   return "aui-event-badge aui-event-badge-page";
 }
 
+function shortTxId(txId: string): string {
+  if (txId.length <= 18) return txId;
+  return `${txId.slice(0, 10)}...${txId.slice(-8)}`;
+}
+
 async function loadStacksConnect() {
   return import("@stacks/connect");
 }
@@ -469,11 +474,12 @@ export default function Home() {
                     <p className="mt-1 text-sm">{item.summary}</p>
                     <a
                       href={`${getExplorerBase(network)}/${item.txId}?chain=${getExplorerChain(network)}`}
+                      title={item.txId}
                       target="_blank"
                       rel="noreferrer"
                       className="mt-1 block break-all font-mono text-xs text-[var(--brand-soft)] hover:text-[var(--brand)] aui-tx-link"
                     >
-                      {item.txId}
+                      {shortTxId(item.txId)}
                     </a>
                   </li>
                 ))}
