@@ -27,6 +27,13 @@ function getExplorerChain(network: string): "mainnet" | "testnet" {
   return "testnet";
 }
 
+function eventBadgeClass(type: ActivityItem["type"]): string {
+  if (type === "conversion") return "aui-event-badge aui-event-badge-conversion";
+  if (type === "action") return "aui-event-badge aui-event-badge-action";
+  if (type === "custom") return "aui-event-badge aui-event-badge-custom";
+  return "aui-event-badge aui-event-badge-page";
+}
+
 async function loadStacksConnect() {
   return import("@stacks/connect");
 }
@@ -458,7 +465,7 @@ export default function Home() {
               <ul className="mt-3 space-y-2">
                 {activity.map((item) => (
                   <li key={item.id} className="rounded-xl border border-[var(--border)] bg-[var(--surface)] px-3 py-3 aui-event-item">
-                    <p className="font-mono text-[11px] uppercase tracking-wide text-[var(--text-soft)]">{item.type} @ {item.at}</p>
+                    <p className="font-mono text-[11px] uppercase tracking-wide text-[var(--text-soft)]"><span className={eventBadgeClass(item.type)}>{item.type}</span> @ {item.at}</p>
                     <p className="mt-1 text-sm">{item.summary}</p>
                     <a
                       href={`${getExplorerBase(network)}/${item.txId}?chain=${getExplorerChain(network)}`}
