@@ -186,3 +186,11 @@ textarea {
 .aui-status-dot {
   box-shadow: 0 0 0 3px color-mix(in oklab, var(--brand) 24%, transparent);
 }
+
+.aui-event-item {
+  transition: border-color 160ms ease, transform 160ms ease;
+}
+.aui-event-item:hover {
+  transform: translateX(2px);
+  border-color: color-mix(in oklab, var(--brand) 55%, var(--border) 45%);
+}
