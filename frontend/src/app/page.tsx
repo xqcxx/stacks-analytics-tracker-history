@@ -444,7 +444,7 @@ export default function Home() {
                       href={`${getExplorerBase(network)}/${item.txId}?chain=${network}`}
                       target="_blank"
                       rel="noreferrer"
-                      className="mt-1 block break-all font-mono text-xs text-[var(--brand-soft)] hover:text-[var(--brand)]"
+                      className="mt-1 block break-all font-mono text-xs text-[var(--brand-soft)] hover:text-[var(--brand)] aui-tx-link"
                     >
                       {item.txId}
                     </a>
