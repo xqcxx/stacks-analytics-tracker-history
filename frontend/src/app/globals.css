@@ -228,3 +228,28 @@ textarea {
   outline: none;
   box-shadow: 0 0 0 3px color-mix(in oklab, var(--brand) 50%, transparent);
 }
+
+.aui-event-badge {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid color-mix(in oklab, var(--border) 80%, #fff 6%);
+  border-radius: 999px;
+  padding: 1px 8px;
+  margin-right: 6px;
+}
+
+.aui-event-badge-page {
+  color: color-mix(in oklab, var(--brand-soft) 76%, #fff 12%);
+}
+
+.aui-event-badge-action {
+  color: color-mix(in oklab, #8be4ff 74%, #fff 12%);
+}
+
+.aui-event-badge-conversion {
+  color: color-mix(in oklab, var(--accent) 72%, #fff 12%);
+}
+
+.aui-event-badge-custom {
+  color: color-mix(in oklab, #c3a6ff 72%, #fff 12%);
+}
