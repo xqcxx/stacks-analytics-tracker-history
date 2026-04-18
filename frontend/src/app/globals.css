@@ -134,3 +134,8 @@ textarea {
   backdrop-filter: blur(8px);
   background: color-mix(in oklab, var(--surface) 86%, #ffffff 8%);
 }
+
+.aui-hero-kicker {
+  letter-spacing: 0.24em;
+  color: color-mix(in oklab, var(--text-soft) 82%, #d7fff0 18%);
+}
