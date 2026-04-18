@@ -223,3 +223,8 @@ textarea {
 .aui-split {
   align-items: start;
 }
+
+.aui-focus-ring:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px color-mix(in oklab, var(--brand) 50%, transparent);
+}
