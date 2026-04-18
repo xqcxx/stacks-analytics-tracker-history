@@ -382,7 +382,7 @@ export default function Home() {
           {status}
         </p>
 
-        <div className="grid gap-4 lg:grid-cols-[1.15fr_0.85fr]">
+        <div className="grid gap-4 lg:grid-cols-[1.15fr_0.85fr] aui-split">
           <div className="grid gap-4 lg:grid-cols-2">
             <article className="rounded-2xl border border-[var(--border)] bg-[var(--surface-muted)] p-4 lg:col-span-2">
               <h3 className="text-base font-semibold">Runtime Config</h3>
