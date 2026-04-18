@@ -84,6 +84,8 @@ export default function Home() {
     return `${walletAddress.slice(0, 6)}...${walletAddress.slice(-4)}`;
   }, [walletAddress]);
 
+  const currentYear = new Date().getFullYear();
+
   const statusClass = busy
     ? "border-[var(--brand)] text-[var(--text)]"
     : "border-[var(--border)] text-[var(--text-soft)]";
@@ -501,7 +503,7 @@ export default function Home() {
 
       <footer className="rounded-2xl border border-[var(--border)] bg-[var(--surface)] px-4 py-4 text-xs text-[var(--text-soft)]">
         <div className="flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
-          <p>GraphForge Analytics - On-chain telemetry infrastructure for product teams.</p>
+          <p>GraphForge Analytics - On-chain telemetry infrastructure for product teams. {currentYear}</p>
           <div className="flex flex-wrap items-center gap-2">
             <span>Security-first architecture</span>
             <span className="opacity-60">•</span>
