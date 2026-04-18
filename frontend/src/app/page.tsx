@@ -230,7 +230,7 @@ export default function Home() {
         </div>
       </nav>
 
-      <section className="rise-in surface-panel section-accent rounded-3xl border border-[var(--border)] bg-[var(--surface)] p-8 shadow-[0_22px_80px_-45px_rgba(50,212,161,0.65)]">
+      <section className="rise-in surface-panel section-accent aui-grid-overlay rounded-3xl border border-[var(--border)] bg-[var(--surface)] p-8 shadow-[0_22px_80px_-45px_rgba(50,212,161,0.65)]">
         <p className="font-mono text-xs uppercase tracking-[0.28em] text-[var(--text-soft)] aui-hero-kicker">GraphForge Analytics</p>
         <h1 className="mt-3 text-[2.5rem] font-semibold leading-[1.1] md:text-[3.5rem] aui-display-title">Event Analytics on Stacks</h1>
         <p className="mt-5 max-w-3xl text-base text-[var(--text-soft)] md:text-lg aui-body-copy">
