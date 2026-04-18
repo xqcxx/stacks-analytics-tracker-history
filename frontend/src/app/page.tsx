@@ -248,9 +248,9 @@ export default function Home() {
       <nav className="rise-in glass-nav sticky top-4 z-30 flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-[var(--border)] px-4 py-3">
         <p className="flex items-center gap-2 font-mono text-xs uppercase tracking-[0.2em] text-[var(--text-soft)]"><span className="h-2 w-2 rounded-full bg-[var(--brand)]" />GraphForge</p>
         <div className="flex flex-wrap items-center gap-2 aui-footer-meta text-xs">
-<a href="#how-it-works" className="rounded-full border border-[var(--border)] px-4 py-1.5 transition aui-nav-chip hover:border-[var(--brand)] hover:text-[var(--brand)]">How It Works</a>
-        <a href="#live-console" className="rounded-full border border-[var(--border)] px-4 py-1.5 transition aui-nav-chip hover:border-[var(--brand)] hover:text-[var(--brand)]">Console</a>
-        <a href="#contact" className="rounded-full bg-[var(--brand)] px-4 py-1.5 font-semibold text-[#04131f] transition hover:bg-[var(--brand-soft)]">Request Demo</a>
+<a href="#how-it-works" className="rounded-full border border-[var(--border)] px-4 py-1.5 transition aui-link-focus aui-nav-chip hover:border-[var(--brand)] hover:text-[var(--brand)]">How It Works</a>
+  <a href="#live-console" className="rounded-full border border-[var(--border)] px-4 py-1.5 transition aui-link-focus aui-nav-chip hover:border-[var(--brand)] hover:text-[var(--brand)]">Console</a>
+  <a href="#contact" className="rounded-full bg-[var(--brand)] px-4 py-1.5 font-semibold text-[#04131f] transition aui-link-focus hover:bg-[var(--brand-soft)]">Request Demo</a>
         </div>
       </nav>
 
