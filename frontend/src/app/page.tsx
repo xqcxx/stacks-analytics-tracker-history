@@ -378,7 +378,7 @@ export default function Home() {
         <h2 className="text-2xl font-semibold aui-section-title">Live Console</h2>
         <p className="text-sm text-[var(--text-soft)]">Interactive contract form for demos and scripted operation dry-runs.</p>
         <p className={`rounded-xl border bg-[var(--surface-muted)] px-3 py-2 font-mono text-xs aui-status-line ${statusClass}`}>
-          <span className={`mr-2 inline-block h-2 w-2 rounded-full ${busy ? "animate-pulse bg-[var(--brand)]" : "bg-[var(--text-soft)]"}`} />
+          <span className={`mr-2 inline-block h-2 w-2 rounded-full aui-status-dot ${busy ? "animate-pulse bg-[var(--brand)]" : "bg-[var(--text-soft)]"}`} />
           {status}
         </p>
 
