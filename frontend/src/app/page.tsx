@@ -22,6 +22,11 @@ function getExplorerBase(network: string): string {
   return "https://explorer.hiro.so/txid";
 }
 
+function getExplorerChain(network: string): "mainnet" | "testnet" {
+  if (network === "mainnet") return "mainnet";
+  return "testnet";
+}
+
 async function loadStacksConnect() {
   return import("@stacks/connect");
 }
@@ -456,7 +461,7 @@ export default function Home() {
                     <p className="font-mono text-[11px] uppercase tracking-wide text-[var(--text-soft)]">{item.type} @ {item.at}</p>
                     <p className="mt-1 text-sm">{item.summary}</p>
                     <a
-                      href={`${getExplorerBase(network)}/${item.txId}?chain=${network}`}
+                      href={`${getExplorerBase(network)}/${item.txId}?chain=${getExplorerChain(network)}`}
                       target="_blank"
                       rel="noreferrer"
                       className="mt-1 block break-all font-mono text-xs text-[var(--brand-soft)] hover:text-[var(--brand)] aui-tx-link"
