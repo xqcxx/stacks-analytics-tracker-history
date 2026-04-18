@@ -205,3 +205,8 @@ textarea {
   opacity: 0.92;
   letter-spacing: 0.02em;
 }
+
+.aui-chip-compact {
+  font-size: 0.7rem;
+  background: color-mix(in oklab, var(--surface-muted) 82%, #000 18%);
+}
