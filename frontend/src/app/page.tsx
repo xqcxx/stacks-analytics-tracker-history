@@ -238,15 +238,15 @@ export default function Home() {
           Built for teams that need auditable analytics plus high-frequency scripted submissions.
         </p>
         <div className="mt-5 grid gap-2 text-xs sm:grid-cols-3">
-          <div className="metric-chip rounded-xl px-3 py-2">
+          <div className="metric-chip aui-metric-tile rounded-xl px-3 py-2">
             <p className="font-mono uppercase tracking-wide text-[var(--text-soft)]">Event Types</p>
             <p className="mt-1 text-sm font-semibold text-[var(--text)]">4 tracked functions</p>
           </div>
-          <div className="metric-chip rounded-xl px-3 py-2">
+          <div className="metric-chip aui-metric-tile rounded-xl px-3 py-2">
             <p className="font-mono uppercase tracking-wide text-[var(--text-soft)]">Network</p>
             <p className="mt-1 text-sm font-semibold text-[var(--text)]">{network}</p>
           </div>
-          <div className="metric-chip rounded-xl px-3 py-2">
+          <div className="metric-chip aui-metric-tile rounded-xl px-3 py-2">
             <p className="font-mono uppercase tracking-wide text-[var(--text-soft)]">Local Feed</p>
             <p className="mt-1 text-sm font-semibold text-[var(--text)]">{activity.length} events</p>
           </div>
