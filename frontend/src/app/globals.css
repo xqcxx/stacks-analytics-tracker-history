@@ -194,3 +194,9 @@ textarea {
   transform: translateX(2px);
   border-color: color-mix(in oklab, var(--brand) 55%, var(--border) 45%);
 }
+
+.aui-tx-link {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
