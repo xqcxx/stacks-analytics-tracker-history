@@ -229,6 +229,11 @@ textarea {
   box-shadow: 0 0 0 3px color-mix(in oklab, var(--brand) 50%, transparent);
 }
 
+.aui-link-focus:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px color-mix(in oklab, var(--brand) 42%, transparent);
+}
+
 .aui-event-badge {
   display: inline-flex;
   align-items: center;
