@@ -238,7 +238,7 @@ export default function Home() {
   }
 
   return (
-    <div className="mx-auto flex min-h-screen w-full max-w-7xl aui-shell aui-phase2-shell-22 aui-phase2-shell-21 aui-phase2-shell-20 aui-phase2-shell-19 aui-phase2-shell-18 aui-phase2-shell-17 aui-phase2-shell-16 aui-phase2-shell-15 aui-phase2-shell-14 aui-phase2-shell-13 aui-phase2-shell-12 aui-phase2-shell-11 aui-phase2-shell-10 aui-phase2-shell-9 aui-phase2-shell-8 aui-phase2-shell-7 aui-phase2-shell-6 aui-phase2-shell-5 aui-phase2-shell-4 aui-phase2-shell-3 aui-phase2-shell-2 aui-phase2-shell-1 flex-col gap-5 px-4 py-5 sm:gap-6 sm:px-6 lg:py-10">
+    <div className="mx-auto flex min-h-screen w-full max-w-7xl aui-shell aui-phase2-shell-23 aui-phase2-shell-22 aui-phase2-shell-21 aui-phase2-shell-20 aui-phase2-shell-19 aui-phase2-shell-18 aui-phase2-shell-17 aui-phase2-shell-16 aui-phase2-shell-15 aui-phase2-shell-14 aui-phase2-shell-13 aui-phase2-shell-12 aui-phase2-shell-11 aui-phase2-shell-10 aui-phase2-shell-9 aui-phase2-shell-8 aui-phase2-shell-7 aui-phase2-shell-6 aui-phase2-shell-5 aui-phase2-shell-4 aui-phase2-shell-3 aui-phase2-shell-2 aui-phase2-shell-1 flex-col gap-5 px-4 py-5 sm:gap-6 sm:px-6 lg:py-10">
       <a
         href="#live-console"
         className="sr-only rounded-lg bg-[var(--brand)] px-3 py-2 text-sm font-semibold text-[#04131f] focus:not-sr-only"
