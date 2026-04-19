@@ -258,3 +258,8 @@ textarea {
 .aui-event-badge-custom {
   color: color-mix(in oklab, #c3a6ff 72%, #fff 12%);
 }
+
+.aui-phase2-shell-1 {
+  --aui-shell-phase2-1: 1;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.02), 0 1px 11px -1px rgba(0, 0, 0, 0.22);
+}
