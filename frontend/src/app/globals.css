@@ -413,3 +413,8 @@ textarea {
   --aui-shell-phase2-31: 1;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.02), 0 31px 41px -31px rgba(0, 0, 0, 0.22);
 }
+
+.aui-phase2-shell-32 {
+  --aui-shell-phase2-32: 1;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.02), 0 32px 42px -32px rgba(0, 0, 0, 0.22);
+}
