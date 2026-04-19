@@ -363,3 +363,8 @@ textarea {
   --aui-shell-phase2-21: 1;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.02), 0 21px 31px -21px rgba(0, 0, 0, 0.22);
 }
+
+.aui-phase2-shell-22 {
+  --aui-shell-phase2-22: 1;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.02), 0 22px 32px -22px rgba(0, 0, 0, 0.22);
+}
