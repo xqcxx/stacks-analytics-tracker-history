@@ -238,7 +238,7 @@ export default function Home() {
   }
 
   return (
-    <div className="mx-auto flex min-h-screen w-full max-w-7xl aui-shell aui-phase2-shell-2 aui-phase2-shell-1 flex-col gap-5 px-4 py-5 sm:gap-6 sm:px-6 lg:py-10">
+    <div className="mx-auto flex min-h-screen w-full max-w-7xl aui-shell aui-phase2-shell-3 aui-phase2-shell-2 aui-phase2-shell-1 flex-col gap-5 px-4 py-5 sm:gap-6 sm:px-6 lg:py-10">
       <a
         href="#live-console"
         className="sr-only rounded-lg bg-[var(--brand)] px-3 py-2 text-sm font-semibold text-[#04131f] focus:not-sr-only"
